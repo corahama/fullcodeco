@@ -1,0 +1,228 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no,
+  initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>FullCodeCo.</title>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="{% static 'core/css/materialize.min.css' %}"  media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="{% static 'core/css/estilos.min.css' %}">
+  <link type="text/css" rel="stylesheet" href="{% static 'core/css/index.css' %}">
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web|Work+Sans&display=swap" rel="stylesheet">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body>
+
+  <nav class="white" id="barra">
+    <div class="nav-wrapper">
+      <a href="" class="brand-logo" id="logo"><img src="{% static 'core/img/logo.png' %}" alt="" width="110"></a>
+      <a href="" class="brand-logo" id="logo-full"><img src="{% static 'core/img/fullcode-logo.png' %}"
+        alt="" width="100"></a>
+      <a href="" data-target="mobile-demo" class="sidenav-trigger pt-2"><i class="material-icons">menu</i></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li ><a href="" class="plus valign-wrapper nav-link" >Plus</a></li>
+        <li ><a href="" class="acerca_de valign-wrapper nav-link" >Nosotros</a></li>
+        <li ><a href="" class="portafolio-l valign-wrapper nav-link" >Portafolio</a></li>
+        <li ><a href="" class="contacto valign-wrapper nav-link" >Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="" class="plus">Acerca de</a></li>
+    <li><a href="" class="acerca_de">Info</a></li>
+    <li><a href="" class="portafolio-l">Portafolio</a></li>
+    <li><a href="" class="contacto">Contacto</a></li>
+  </ul>
+
+  <section class="banner py-6 mb-5" id="banner">
+    <div class="container mt-4 w-8" id="aparece">
+      <div class="row">
+        <div class="col s12 l6">
+          <img src="{% static 'core/img/fullcode.png' %}" alt="" width="600" class="s-ds l-dn">
+          <img src="{% static 'core/img/banner.png' %}" alt="" width="600">
+        </div>
+        <div class="col s12 l6 left-align">
+          <img src="{% static 'core/img/fullcode.png' %}" alt="" width="600" class="s-dn l-ds mt-4">
+          <p class="slogan t-especial mt-0 center-align">Concibe la idea,
+            <span class="blue-text">nosotros la desarrollamos.</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="info py-4">
+    <div class="container p-4 hidden">
+      <div class="row center-align">
+        <div class="col s12 l4 ">
+          <i class="large material-icons">timer</i>
+          <h3 class="">Rapidez</h3>
+          <p class="flow-text"> Hacemos código limpio, y revisamos cada detalle. No lanzamos una página
+            hasta que tiene una <b>velocidad de carga mayor a 90%.</b></p>
+        </div>
+        <div class="col  s12 l4">
+          <i class="large material-icons">trending_up</i>
+          <h3 class="">Marketing Digital</h3>
+          <p class="flow-text"> Implementamos las herramientas elementales para monitorear el trafico que hay
+            en tu sitio, tales como <b>Google Analytis</b> y <b>Facebook Analytis</b>, para orientarte a que tomes la mejor
+            estrategia de <em>Marketing Digital</em>.
+          </p>
+        </div>
+        <div class="col s12 l4">
+          <i class="large material-icons">work</i>
+          <h3 class="">Funcionalidades</h3>
+          <p class="flow-text"> ¿Te han dicho que no se puede? <b> Para nosotros no existen imposibles</b>,
+            cualquier funcionalidad que necesites la podemos desarrollar.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="code">
+      <div class="row">
+        <div class="col s12 pt-6 mt-4 center-align">
+          <h2 class="titulos">¿Por qué nosotros?</h2>
+        </div>
+      </div>
+
+      <div class="row center-align mb-4 mt-5">
+        <div class="s-ds l-dn col s12 offset-m2 m8 l5 left-align">
+          <img src="{% static 'core/img/code_is_art.png' %}" alt="" width="100%">
+        </div>
+        <div class="s-mt-0 s-pad col s12 l7 right-align mt-6">
+          <h3 class="indigo-text text-darken-4">Hacer código es un arte</h3>
+          <p class="mute ml-6 pl-6 flow-text"> Creemos en la dualidad arte-técnico que es programar un sitio web.
+            Cuidamos hasta el más mínimo detalle en cada uno de los sitios web que realizamos. </p>
+        </div>
+        <div class="s-dn l-ds col s12 l5 left-align">
+          <img src="{% static 'core/img/code_is_art1.png' %}" alt="" width="102%">
+        </div>
+      </div>
+
+      <div class="row mt-6 ">
+        <div class="col s12 offset-m2 m8 l5 left-align">
+          <img src="{% static 'core/img/grow-up.png' %}" alt="" width="400" class="ml-4">
+        </div>
+        <div class="s-pad col s12 l7 left-align">
+          <h3 class="indigo-text text-darken-4"> Queremos que crezcas </h3>
+          <p class="mute pr-6 flow-text "> Es importante que sientas que estás
+            tomando la mejor decision, por eso brindamos servicio personalizado como:
+            <br> - Generamos propuestas únicas y personalizadas a tus necesidades.
+            <br> - Asesoría en tu sitio actual, reacondicionamiento del mismo.
+            <br> - Mantenimiento base por 6 meses en tu sitio web.
+          </p>
+        </div>
+      </div>
+  </section>
+
+  <section class="grey lighten-3">
+    <div class="pb-4 white">
+      <div class="row center-align">
+        <div class="col s12">
+          <h2 class="mt-4 grey-text text-lighten-5 vis">lorem</h2>
+        </div>
+      </div>
+    </div>
+    <div class="position-relative">
+      <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"
+        class="shape shape-bottom shape-fluid-x svg-shim text-gray-200">
+        <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+      </svg>
+    </div>
+
+    <div class="container py-6 portafolio">
+      <div class="row">
+        <div class="col s12 center-align">
+          <h2 class="mt-4 ">Portafolio</h2>
+        </div>
+
+      {% for project in projects %}
+
+        <div class="col s12 m6 l4 mt-5">
+          <div class="card">
+            <div class="card-image grey lighten-3 valign-wrapper">
+             <img src="{{project.image.url}}">
+            </div>
+            <div class="card-content">
+              <h4 class="my-0">{{project.name}}</h4>
+              <p class="mute">{{project.description}}</p>
+            </div>
+            <div class="card-action">
+              <a href="{{project.link}}" class="w-10 right-align indigo-text text-darken-3" target="_blank">
+                Ir al sitio<i class="icono material-icons indigo-text text-darken-3">chevron_right</i></a>
+            </div>
+          </div>
+        </div>
+
+      {% endfor %}
+
+      </div>
+    </div>
+  </section>
+
+  <section class="contact my-5 py-6" id="form">
+    <div class="container" id="contact">
+      <div class="row">
+        <div class="col center-align s12 offset-m2 m8 offset-l2 l8 grey lighten-5 card-panel">
+          <h3 class="py-2 pt-4 border-bottom">Contacto</h3>
+          <form class="m-4" action="#contact" method="post">
+            {% csrf_token %}
+
+            {% if 'ok' in request.GET %}
+            <p class="flow-text correcto green-text pb-3">Su mensaje ha sido enviado correctamente, nos pondremos
+              en contacto con usted lo mas pronto posible</p>
+            {% endif %}
+
+            <div class="input-field col s12">
+              {{form.name}}
+              <label for="id_name">Nombre</label>
+            </div>
+            <div class="input-field col s12">
+              {{form.email}}
+              <label for="id_email">Correo electronico</label>
+            </div>
+            <div class="input-field col s12">
+              {{form.content}}
+              <label for="id_content">Mensaje</label>
+            </div>
+
+            <button class="my-2 btn waves-effect waves-light" type="submit" name="action">Enviar
+               <i class="material-icons right">send</i>
+             </button>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-2 valign-wrapper grey darken-4 white-text">
+    <span >Copiryght 2019@FullCode Co.</span>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="{% static 'core/js/materialize.min.js' %}"></script>
+  <script type="text/javascript" src="{% static 'core/js/index.js' %}"></script>
+  <script type="text/javascript" src="{% static 'core/js/index-jquery.js' %}"></script>
+
+  <script type="text/javascript">
+    jQuery(document).ready(function(){
+      $("#aparece").delay(1000).animate({"opacity": "1"}, 700);
+    });
+  </script>
+
+  <script type="text/javascript">
+    $(document).scroll(function(){
+      $('.hidden').slideDown(1000);
+    });
+  </script>
+
+</body>
+</html>

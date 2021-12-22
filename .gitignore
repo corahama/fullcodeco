@@ -1,0 +1,6 @@
+#django
+db.sqlite3
+fullcodeco/local_settings.py
+*/migrations/
+*/__pycache__/
+media/
